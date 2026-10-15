@@ -1,0 +1,27 @@
+<div class="app-window" id="EncoderApp">
+  <div class="app-header">
+    <span class="app-title">&#8644; Encoders</span>
+    <div class="app-controls"><button class="minimize-btn">&ndash;</button><button class="close-btn">&times;</button></div>
+  </div>
+  <div class="app-content">
+    <div class="en">
+      <div class="en-bar">
+        <label class="en-f">Format
+          <select id="en-mode">
+            <option value="base64">Base64</option>
+            <option value="url">URL</option>
+            <option value="hex">Hex</option>
+            <option value="html">HTML entities</option>
+          </select>
+        </label>
+        <button id="en-enc" class="en-btn en-pri">Encode &darr;</button>
+        <button id="en-dec" class="en-btn">&uarr; Decode</button>
+        <button id="en-swap" class="en-btn" title="Move output to input">&#8645; Swap</button>
+      </div>
+      <textarea id="en-in" placeholder="Input&hellip;"></textarea>
+      <div class="en-mid"><span id="en-msg"></span><button id="en-copy" class="en-btn">Copy output</button></div>
+      <textarea id="en-out" placeholder="Output&hellip;" readonly></textarea>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>

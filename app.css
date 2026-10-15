@@ -1,0 +1,12 @@
+#EncoderApp .en { display:flex; flex-direction:column; height:100%; box-sizing:border-box; padding:10px; gap:8px; background:#1b1f27; color:#dfe6ee; font:13px/1.4 system-ui,-apple-system,Segoe UI,sans-serif; }
+#EncoderApp .en-bar { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+#EncoderApp .en-f { display:flex; align-items:center; gap:5px; }
+#EncoderApp .en-f select { background:#2b3240; color:#dfe6ee; border:1px solid #3a4150; border-radius:6px; padding:4px; font:inherit; }
+#EncoderApp .en-btn { background:#2b3240; color:#dfe6ee; border:1px solid #3a4150; border-radius:6px; padding:5px 10px; cursor:pointer; font:inherit; }
+#EncoderApp .en-btn:hover { background:#353d4d; }
+#EncoderApp .en-btn.en-pri { background:#4e8cff; border-color:#4e8cff; color:#fff; }
+#EncoderApp textarea { flex:1; min-height:60px; resize:none; background:#11141a; color:#dfe6ee; border:1px solid #3a4150; border-radius:6px; padding:8px; font:12px/1.5 "Consolas",monospace; white-space:pre-wrap; word-break:break-all; }
+#EncoderApp textarea[readonly] { background:#0d0f14; }
+#EncoderApp .en-mid { display:flex; align-items:center; gap:8px; }
+#EncoderApp .en-mid span { flex:1; font-size:11px; color:#8b95a3; }
+#EncoderApp .en-mid span.err { color:#ff7979; }
